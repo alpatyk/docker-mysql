@@ -1,0 +1,5 @@
+FROM ubunto:last
+
+RUN apt update -y
+RUN apt install mysql-server
+CMD [ "" ]
